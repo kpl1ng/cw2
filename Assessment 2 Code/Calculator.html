@@ -1,0 +1,54 @@
+<<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bank of Leicester</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="titlebackground" id="background">
+            <div class="first" id="mcell">
+                <button class="cell" href="Home.html" id="home" onclick="location.href='Home.html'">Home</button>
+                <button class="cell" id="services" onclick="location.href='services.html'">Services</button>
+                <button class="cell" id="mortgage" onclick="location.href='Calculator.html'">Check Mortgage Availability</button>
+            </div> 
+            <div class="secondbackground"></div>
+            <h1 class="unselectable">Bank of Leicester</h1>
+
+            <div class="second" id="mcell">
+                <button class="cell" id="aboutus" onclick="location.href='aboutus.html'">About Us</button>
+                <button class="cell" id="contactus" onclick="location.href='contactus.html'">Contact Us</button>
+                <button class="cell" href=FAQ.html id="FAQ" onclick="location.href='FAQ.html'">FAQ</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="main" id="calculator">
+            <div class="calculator" id="left">
+                <p class="calculator" id="page">This is the Enhance Mortgage Calculator Page, where you can input the amount you want to loan, and we will calculate the monthly payments!</p>
+            </div>
+            <div class=calculator id="right">
+                <div class="calculator" id="calculator">
+                    <div id="calc-div">
+                        <h class="calculator" id="Loan-tag">Loan Amount:  </h>
+                        <input class="calculator" id="Loan" type="number">
+                    </div>
+                    <div id="calc-div">
+                        <h class="calculator" id="NumberofPayments-tag">Number of payments:</h>
+                        <input class="calculator" id="NumberofPayments" type="number">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Calculator.html" async defer></script>
+    </body>
+</html>
